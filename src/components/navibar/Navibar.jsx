@@ -29,11 +29,11 @@ export const Navibar = () => {
                             data-bs-toggle="dropdown"
                         >Pages</Link>
                         <div className="dropdown-menu bg-light m-0">
-                            <a href="feature.html" className="dropdown-item">Features</a>
-                            <a href="appointment.html" className="dropdown-item">Appointment</a>
-                            <a href="team.html" className="dropdown-item">Our Team</a>
-                            <a href="testimonial.html" className="dropdown-item">Testimonial</a>
-                            <a href="404.html" className="dropdown-item">404 Page</a>
+                            <Link to="/pages/feature" className="dropdown-item">Features</Link>
+                            <Link to="/pages/appointment" className="dropdown-item">Appointment</Link>
+                            <Link to="/pages/team" className="dropdown-item">Our Team</Link>
+                            <Link to="/pages/testimonial" className="dropdown-item">Testimonial</Link>
+                            <Link to="/pages/404" className="dropdown-item">404 Page</Link>
                         </div>
                     </div>
                     <Link to="/contact" className="nav-item nav-link">Contact Us</Link>
