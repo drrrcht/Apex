@@ -3,10 +3,10 @@ import {PageHeaderStart} from "../components/pageHeaderStart/PageHeaderStart";
 import {OurServices} from "../components/ourServices/OurServices";
 import {Appointment} from "../components/appointment/Appointment";
 
-export const Service = () => {
+export const Service = (props) => {
     return (
         <>
-            <PageHeaderStart headerText = "Our Services" />
+            <PageHeaderStart headerText = {props.headerText} />
             <OurServices />
             <Appointment />
         </>

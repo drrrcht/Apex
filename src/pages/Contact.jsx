@@ -4,7 +4,7 @@ import {PageHeaderStart} from "../components/pageHeaderStart/PageHeaderStart";
 export const Contact = (props) => {
     return(
         <>
-            <PageHeaderStart headerText = "Contact Us"/>
+            <PageHeaderStart headerText = {props.headerText}/>
                 <div className="container-xxl py-5">
                     <div className="container">
                         <div className="row g-5">
